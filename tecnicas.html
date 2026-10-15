@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnicas de calidad | CalidadSoft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="index.html" class="logo">⚙ SISTEMA DE GESTIÓN DE CALIDAD</a>
+        <button class="boton-menu" id="botonMenu" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <nav class="navegacion" id="navegacion" aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="fundamentos.html">Calidad</a>
+            <a href="ciclo-vida.html">Procesos</a>
+            <a href="ciclo-vida.html#scrum">Metodologías</a>
+            <a href="tecnicas.html">Recursos</a>
+            <a href="index.html#sobre-nosotros">Sobre nosotros</a>
+            <a href="herramientas.html">Herramientas de Calidad</a>
+        </nav>
+    </header>
+    <main>
+        <section class="cabecera-pagina">
+            <p class="etiqueta etiqueta-clara">02 · PRÁCTICAS DE TRABAJO</p>
+            <h1>Técnicas de aseguramiento de la calidad</h1>
+            <p>Conocé algunas prácticas mencionadas en el material que ayudan a detectar errores, compartir conocimiento
+                y mejorar el resultado.</p>
+        </section>
+        <section class="seccion contenedor">
+            <div class="rejilla dos-columnas tarjetas-desplegables">
+                <article class="tarjeta tarjeta-interactiva">
+                    <div class="icono">🧪</div>
+                    <h2>Desarrollo guiado por pruebas (TDD)</h2>
+                    <p>La idea principal es escribir primero las pruebas que el código debe superar y después
+                        desarrollar el código.</p>
+                    <button class="boton-detalle" aria-expanded="false">Ver detalle <span>＋</span></button>
+                    <div class="detalle oculto">
+                        <p><strong>Ejemplo sencillo:</strong> antes de escribir una función que suma dos números, se
+                            define una prueba que compruebe que 2 + 3 da 5. Luego se escribe el código necesario para
+                            pasarla.</p>
+                    </div>
+                </article>
+                <article class="tarjeta tarjeta-interactiva">
+                    <div class="icono">👥</div>
+                    <h2>Programación en pareja</h2>
+                    <p>Dos personas trabajan juntas en una misma tarea. Una realiza la actividad y la otra observa y
+                        aporta sugerencias.</p>
+                    <button class="boton-detalle" aria-expanded="false">Ver detalle <span>＋</span></button>
+                    <div class="detalle oculto">
+                        <p><strong>¿Qué aporta?</strong> Permite compartir conocimientos y detectar posibles problemas
+                            mientras se realiza el trabajo.</p>
+                    </div>
+                </article>
+                <article class="tarjeta tarjeta-interactiva">
+                    <div class="icono">🛡️</div>
+                    <h2>Técnicas a prueba de errores</h2>
+                    <p>Buscan evitar que se produzcan errores o hacer que sean evidentes cuando ocurren.</p>
+                    <button class="boton-detalle" aria-expanded="false">Ver detalle <span>＋</span></button>
+                    <div class="detalle oculto">
+                        <p><strong>Ejemplo del material:</strong> los correctores de sintaxis de programación resaltan
+                            errores para que el equipo pueda identificarlos.</p>
+                    </div>
+                </article>
+                <article class="tarjeta tarjeta-interactiva">
+                    <div class="icono">🚦</div>
+                    <h2>Indicadores andon</h2>
+                    <p>Son señales visuales que muestran el funcionamiento normal o la presencia de posibles fallos.</p>
+                    <button class="boton-detalle" aria-expanded="false">Ver detalle <span>＋</span></button>
+                    <div class="detalle oculto">
+                        <p><strong>¿Para qué sirven?</strong> Para advertir al equipo de una situación que necesita
+                            atención de manera clara y rápida.</p>
+                    </div>
+                </article>
+                <article class="tarjeta tarjeta-interactiva">
+                    <div class="icono">🐟</div>
+                    <h2>Diagrama de causa y efecto</h2>
+                    <p>También se conoce como diagrama de Ishikawa o espina de pez.</p>
+                    <button class="boton-detalle" aria-expanded="false">Ver detalle <span>＋</span></button>
+                    <div class="detalle oculto">
+                        <p><strong>Uso:</strong> organizar posibles causas relacionadas con un problema para facilitar
+                            su análisis durante una retrospectiva.</p>
+                    </div>
+                </article>
+                <article class="tarjeta tarjeta-interactiva">
+                    <div class="icono">🌳</div>
+                    <h2>Diagrama de árbol</h2>
+                    <p>Es otra herramienta visual que se puede utilizar para analizar y ordenar ideas.</p>
+                    <button class="boton-detalle" aria-expanded="false">Ver detalle <span>＋</span></button>
+                    <div class="detalle oculto">
+                        <p><strong>Uso:</strong> separar una cuestión general en elementos más pequeños para hacerla más
+                            fácil de revisar.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="encabezado-seccion margen-arriba">
+                <p class="etiqueta etiqueta-azul">REVISIÓN DEL RESULTADO</p>
+                <h2>Antes de dar una tarea por terminada</h2>
+            </div>
+            <div class="panel">
+                <ul class="lista">
+                    <li>Comprobar que la tarea cumple lo acordado.</li>
+                    <li>Revisar que el incremento esté terminado, probado y operativo.</li>
+                    <li>Documentar o validar lo que corresponda según los criterios definidos.</li>
+                    <li>Compartir observaciones para mejorar el próximo ciclo de trabajo.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <p>Proyecto educativo · Calidad del software</p>
+    </footer>
+</body>
+
+</html>

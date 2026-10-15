@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de calidad | CalidadSoft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="index.html" class="logo">⚙ SISTEMA DE GESTIÓN DE CALIDAD</a>
+        <button class="boton-menu" id="botonMenu" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <nav class="navegacion" id="navegacion" aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="fundamentos.html">Calidad</a>
+            <a href="ciclo-vida.html">Procesos</a>
+            <a href="ciclo-vida.html#scrum">Metodologías</a>
+            <a href="tecnicas.html">Recursos</a>
+            <a href="index.html#sobre-nosotros">Sobre nosotros</a>
+            <a href="herramientas.html">Herramientas de Calidad</a>
+        </nav>
+    </header>
+    <main>
+        <section class="cabecera-pagina">
+            <p class="etiqueta etiqueta-clara">03 · RECURSOS DE TRABAJO</p>
+            <h1>Herramientas de calidad</h1>
+            <p>Los recursos visuales y las herramientas de trabajo ayudan a organizar tareas, observar el progreso y
+                hacer visibles los problemas.</p>
+        </section>
+        <section class="seccion contenedor">
+            <div class="encabezado-seccion">
+                <p class="etiqueta etiqueta-azul">EXPLORÁ POR CATEGORÍA</p>
+                <h2>Herramientas y prácticas</h2>
+                <p>Usá los filtros para mostrar una categoría específica.</p>
+            </div>
+            <div class="filtros" role="group" aria-label="Filtrar herramientas">
+                <button class="filtro activo" data-filtro="todas">Todas</button>
+                <button class="filtro" data-filtro="seguimiento">Seguimiento</button>
+                <button class="filtro" data-filtro="prevencion">Prevención de errores</button>
+                <button class="filtro" data-filtro="analisis">Análisis</button>
+            </div>
+            <div class="rejilla tres-columnas tarjetas-herramientas">
+                <article class="tarjeta herramienta" data-categoria="seguimiento">
+                    <div class="icono">📉</div><span class="categoria">Seguimiento</span>
+                    <h3>Gráfico burndown</h3>
+                    <p>Muestra cuánto trabajo queda durante un sprint y ayuda a observar desviaciones.</p>
+                    <p class="etiqueta-fuente">Mencionado en el material</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="seguimiento">
+                    <div class="icono">📈</div><span class="categoria">Seguimiento</span>
+                    <h3>Gráfico burn up</h3>
+                    <p>Representa la evolución prevista del producto según las estimaciones y los sprints.</p>
+                    <p class="etiqueta-fuente">Mencionado en el material</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="seguimiento">
+                    <div class="icono">🗂️</div><span class="categoria">Seguimiento</span>
+                    <h3>Backlog y tablero de tareas</h3>
+                    <p>Ayudan a ordenar el trabajo pendiente, priorizar historias y organizar las tareas del sprint.</p>
+                    <p class="etiqueta-fuente">Conceptos de Scrum</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="prevencion">
+                    <div class="icono">⌨️</div><span class="categoria">Prevención de errores</span>
+                    <h3>Corrector de sintaxis</h3>
+                    <p>Puede señalar errores de sintaxis en el código para que el desarrollador los revise.</p>
+                    <p class="etiqueta-fuente">Ejemplo del material</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="prevencion">
+                    <div class="icono">🧪</div><span class="categoria">Prevención de errores</span>
+                    <h3>Pruebas TDD</h3>
+                    <p>Consiste en escribir primero las pruebas que el código debe superar y luego implementar el
+                        código.</p>
+                    <p class="etiqueta-fuente">Práctica mencionada</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="analisis">
+                    <div class="icono">🐟</div><span class="categoria">Análisis</span>
+                    <h3>Diagrama de Ishikawa</h3>
+                    <p>Organiza posibles causas que pueden estar relacionadas con un problema.</p>
+                    <p class="etiqueta-fuente">Mencionado en el material</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="analisis">
+                    <div class="icono">🌳</div><span class="categoria">Análisis</span>
+                    <h3>Diagrama de árbol</h3>
+                    <p>Permite organizar una cuestión en elementos más pequeños para facilitar su revisión.</p>
+                    <p class="etiqueta-fuente">Mencionado en el material</p>
+                </article>
+                <article class="tarjeta herramienta" data-categoria="analisis">
+                    <div class="icono">🗣️</div><span class="categoria">Análisis</span>
+                    <h3>Retrospectiva</h3>
+                    <p>Reunión del equipo para revisar cómo se trabajó e identificar oportunidades de mejora.</p>
+                    <p class="etiqueta-fuente">Evento de Scrum</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <p>Proyecto educativo · Calidad del software</p>
+    </footer>
+</body>
+
+</html>
