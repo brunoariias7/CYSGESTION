@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Información sobre los modelos tradicionales de desarrollo de software: Cascada, Modelo V e Iterativo e Incremental." name="description"/>
+<title>Modelos tradicionales | Calidad del Software</title>
+<link href="css/style.css" rel="stylesheet"/>
+<script defer="" src="js/script.js"></script>
+</head>
+<body>
+<header class="encabezado">
+<a class="logo" href="index.html">⚙ CALIDAD DEL SOFTWARE</a>
+<button aria-expanded="false" aria-label="Abrir menú" class="boton-menu" id="botonMenu">☰</button>
+<nav aria-label="Navegación principal" class="navegacion" id="navegacion">
+<a href="index.html">Inicio</a>
+<a href="fundamentos.html">Calidad</a>
+<a href="ciclo-vida.html">Procesos</a>
+<a href="modelos-tradicionales.html">Modelos tradicionales</a>
+<a href="metodologias-agiles.html">Metodologías ágiles</a>
+<a href="tecnicas.html">Técnicas</a>
+<a href="herramientas.html">Herramientas</a>
+</nav></header>
+<main>
+<section class="cabecera-pagina">
+<p class="etiqueta etiqueta-clara">MODELOS DE DESARROLLO</p>
+<h1>Modelos Tradicionales</h1>
+<p>Conocé distintas formas de organizar el desarrollo de software, cómo funciona cada modelo y cuáles son sus ventajas, desventajas y usos.</p>
+</section>
+<section class="seccion contenedor modelos-tradicionales">
+<div class="encabezado-seccion">
+<p class="etiqueta etiqueta-azul">EXPLORAR LOS MODELOS</p>
+<h2>Elegí un modelo para conocerlo</h2>
+<p>Usá estos accesos para ir directamente a cada explicación.</p>
+</div>
+<nav aria-label="Navegación entre modelos" class="menu-modelos">
+<a class="enlace-modelo activo" href="#cascada">🌊 Modelo Cascada</a>
+<a class="enlace-modelo" href="#modelo-v">🔻 Modelo V</a>
+<a class="enlace-modelo" href="#iterativo">🔄 Iterativo e Incremental</a>
+<a href="#graficos-modelos">Ver diagramas</a></nav>
+<article class="modelo-bloque" id="cascada">
+<div class="modelo-titulo">
+<span class="modelo-icono">🌊</span>
+<div>
+<p class="etiqueta etiqueta-azul">MODELO 01</p>
+<h2>Modelo Cascada</h2>
+</div>
+</div>
+<p>El modelo Cascada organiza el desarrollo en etapas consecutivas. Cada etapa se completa antes de comenzar la siguiente. Por eso, el proyecto suele planificarse desde el principio y se busca conocer los requisitos antes de iniciar la construcción.</p>
+<h3>¿Cómo se organiza?</h3>
+<ol class="pasos-modelo">
+<li><strong>Requisitos:</strong> se identifican las necesidades del usuario.</li>
+<li><strong>Análisis y diseño:</strong> se define cómo será el sistema.</li>
+<li><strong>Implementación:</strong> se escribe el código.</li>
+<li><strong>Pruebas:</strong> se comprueba el funcionamiento y se buscan errores.</li>
+<li><strong>Entrega y mantenimiento:</strong> se pone en uso y se realizan correcciones.</li>
+</ol>
+<div class="comparacion-modelo">
+<section class="dato-modelo ventaja-modelo">
+<h3>✓ Ventajas</h3>
+<ul>
+<li>Es sencillo de entender y organizar.</li>
+<li>Sus etapas y objetivos están definidos.</li>
+<li>Facilita la planificación inicial.</li>
+</ul>
+</section>
+<section class="dato-modelo desventaja-modelo">
+<h3>✗ Desventajas</h3>
+<ul>
+<li>Es difícil volver atrás y modificar etapas terminadas.</li>
+<li>Los cambios de requisitos pueden generar demoras y costos.</li>
+<li>El usuario suele ver el producto funcionando al final.</li>
+</ul>
+</section>
+</div>
+<div class="uso-modelo">
+<h3>📌 ¿Cuándo se utiliza?</h3>
+<p>Puede utilizarse cuando los requisitos están claros desde el comienzo, el alcance es estable y se esperan pocos cambios durante el proyecto.</p>
+</div>
+</article>
+<article class="modelo-bloque" id="modelo-v">
+<div class="modelo-titulo">
+<span class="modelo-icono">🔻</span>
+<div>
+<p class="etiqueta etiqueta-azul">MODELO 02</p>
+<h2>Modelo V</h2>
+</div>
+</div>
+<p>El modelo V es una variante del desarrollo secuencial. Su característica principal es que relaciona las etapas de definición y diseño con actividades de prueba. Mientras se planifica una parte del sistema, también se piensa cómo se va a verificar.</p>
+<h3>¿Cómo se organiza?</h3>
+<ol class="pasos-modelo">
+<li><strong>Requisitos:</strong> se establecen las necesidades y criterios de aceptación.</li>
+<li><strong>Diseño del sistema:</strong> se define la estructura general y se planifican pruebas del sistema.</li>
+<li><strong>Diseño detallado:</strong> se definen los componentes y sus relaciones.</li>
+<li><strong>Codificación:</strong> se desarrolla el software.</li>
+<li><strong>Pruebas:</strong> se realizan pruebas unitarias, de integración, del sistema y de aceptación, relacionadas con las etapas anteriores.</li>
+</ol>
+<div class="comparacion-modelo">
+<section class="dato-modelo ventaja-modelo">
+<h3>✓ Ventajas</h3>
+<ul>
+<li>Las pruebas se consideran desde las primeras etapas.</li>
+<li>Relaciona cada etapa de desarrollo con su verificación.</li>
+<li>Ayuda a detectar problemas y organizar el control de calidad.</li>
+</ul>
+</section>
+<section class="dato-modelo desventaja-modelo">
+<h3>✗ Desventajas</h3>
+<ul>
+<li>Es poco flexible cuando aparecen cambios.</li>
+<li>Necesita una planificación detallada.</li>
+<li>Modificar etapas anteriores puede afectar las pruebas previstas.</li>
+</ul>
+</section>
+</div>
+<div class="uso-modelo">
+<h3>📌 ¿Cuándo se utiliza?</h3>
+<p>Es útil en proyectos donde la verificación y la documentación son importantes y se necesita comprobar que cada requisito se cumpla, por ejemplo, en sistemas industriales o de seguridad.</p>
+</div>
+</article>
+<article class="modelo-bloque" id="iterativo">
+<div class="modelo-titulo">
+<span class="modelo-icono">🔄</span>
+<div>
+<p class="etiqueta etiqueta-azul">MODELO 03</p>
+<h2>Modelo Iterativo e Incremental</h2>
+</div>
+</div>
+<p>Este modelo construye el producto mediante ciclos de trabajo. En cada iteración se revisa y mejora lo realizado, y de forma incremental se agregan nuevas partes o funcionalidades. Así, el producto evoluciona en lugar de desarrollarse completo en una sola entrega.</p>
+<h3>¿Cómo se organiza?</h3>
+<ol class="pasos-modelo">
+<li><strong>Versión inicial:</strong> se define una primera versión o producto mínimo.</li>
+<li><strong>Planificación:</strong> se eligen las mejoras o funcionalidades siguientes.</li>
+<li><strong>Desarrollo y pruebas:</strong> se construye y verifica el incremento.</li>
+<li><strong>Revisión:</strong> se analiza el resultado y se recibe retroalimentación.</li>
+<li><strong>Nueva iteración:</strong> se repite el ciclo para mejorar y ampliar el producto.</li>
+</ol>
+<div class="comparacion-modelo">
+<section class="dato-modelo ventaja-modelo">
+<h3>✓ Ventajas</h3>
+<ul>
+<li>Permite entregar partes funcionales antes de terminar todo el producto.</li>
+<li>Facilita incorporar cambios y comentarios.</li>
+<li>Los errores pueden detectarse en cada ciclo.</li>
+</ul>
+</section>
+<section class="dato-modelo desventaja-modelo">
+<h3>✗ Desventajas</h3>
+<ul>
+<li>Necesita coordinación y revisión en cada iteración.</li>
+<li>Puede ser difícil estimar el alcance y el tiempo total.</li>
+<li>Los cambios continuos requieren controlar las versiones.</li>
+</ul>
+</section>
+</div>
+<div class="uso-modelo">
+<h3>📌 ¿Cuándo se utiliza?</h3>
+<p>Se utiliza cuando el producto puede construirse por partes, se espera aprender durante el desarrollo o los requisitos pueden cambiar y ampliarse con el tiempo.</p>
+</div>
+</article>
+<section class="resumen-modelos">
+<div class="encabezado-seccion">
+<p class="etiqueta etiqueta-azul">VISTA GENERAL</p>
+<h2>Comparación de los modelos</h2>
+</div>
+<div class="tabla-modelos-contenedor">
+<table class="tabla-modelos">
+<thead>
+<tr><th>Modelo</th><th>Organización</th><th>Flexibilidad ante cambios</th><th>Característica principal</th></tr>
+</thead>
+<tbody>
+<tr><td>Cascada</td><td>Etapas consecutivas</td><td>Baja</td><td>Planificación inicial y secuencia de fases.</td></tr>
+<tr><td>Modelo V</td><td>Etapas relacionadas con pruebas</td><td>Baja</td><td>Verificación y validación planificadas.</td></tr>
+<tr><td>Iterativo e Incremental</td><td>Ciclos y entregas por partes</td><td>Mayor</td><td>El producto evoluciona mediante mejoras.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section class="bloque-contenido" id="graficos-modelos"><h2>Diagramas de los modelos tradicionales</h2><p>Seleccioná un diagrama para ampliarlo y observar cómo se organiza cada modelo.</p><div class="galeria-graficos">
+<button aria-label="Ampliar gráfico del modelo Cascada" class="grafico-ampliable" data-titulo="Modelo Cascada"><span class="grafico-titulo">🌊 Modelo Cascada</span><span class="flujo-vertical"><b>Requisitos</b><i>↓</i><b>Diseño</b><i>↓</i><b>Programación</b><i>↓</i><b>Pruebas</b><i>↓</i><b>Entrega</b></span><span class="descripcion-grafico">Etapas consecutivas: una comienza cuando termina la anterior.</span></button>
+<button aria-label="Ampliar gráfico del modelo V" class="grafico-ampliable" data-titulo="Modelo V"><span class="grafico-titulo">🔻 Modelo V</span><span class="flujo-v"><span><b>Requisitos</b><b>Diseño del sistema</b><b>Diseño detallado</b><b>Programación</b></span><span><b>Prueba de aceptación</b><b>Prueba de sistema</b><b>Integración</b><b>Prueba unitaria</b></span></span><span class="descripcion-grafico">Cada etapa de desarrollo se relaciona con un nivel de prueba.</span></button>
+<button aria-label="Ampliar gráfico del modelo Iterativo e Incremental" class="grafico-ampliable" data-titulo="Modelo Iterativo e Incremental"><span class="grafico-titulo">🔄 Iterativo e Incremental</span><span class="flujo-horizontal"><b>Versión inicial</b><i>→</i><b>Mejora 1</b><i>→</i><b>Mejora 2</b><i>→</i><b>Producto</b></span><span class="descripcion-grafico">El producto crece mediante ciclos y nuevas funcionalidades.</span></button>
+</div><div class="panel panel-azul"><h2>¿Qué observar?</h2><p>Cascada y V siguen una secuencia planificada. El modelo iterativo e incremental permite revisar y ampliar el producto en varias entregas.</p></div><div aria-hidden="true" aria-label="Gráfico ampliado" aria-modal="true" class="visor-grafico" id="visorGrafico" role="dialog"><button aria-label="Cerrar gráfico" class="cerrar-visor" id="cerrarVisor">×</button><h2 id="tituloVisor"></h2><div id="contenidoVisor"></div><p>Presioná Escape o el botón × para cerrar.</p></div></section></main>
+<footer class="pie">
+<p>Proyecto educativo · Calidad del software</p>
+</footer>
+</body>
+</html>
